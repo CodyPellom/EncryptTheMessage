@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AES Decryptor</title>
+    <script src="./node_modules/crypto-js/crypto-js.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div><h2>Decrypt a Message</h2></div>
+<div class="form-section">
+<input id="inputMsg" type="text" name="inputMsg" placeholder="Message to Decrypt ...">
+<input type="password" name="passphrase" id="decrpyt_Passphrase" placeholder="passphrase / key">
+<button onclick="decryptSubmission()">Decrypt</button>
+</div>
+<br>
+<label>Decrypted Message: </label>
+<div id="finished-decryption"></div>
+
+
+</body>
+<script src="./decryptor.js"></script>
+</html>
