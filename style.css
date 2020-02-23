@@ -7,6 +7,15 @@ h1,h2,h3,h4,h5,h6 {
   font-family: 'VT323';
   color: green;
 }
+label {
+  font-size: large;
+  font-family: 'VT323';
+  color: green;
+
+}
+div {
+  color: white;
+}
 /*Global Styles End*/
 
 /*Form Section Start*/

@@ -5,15 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encrypt a Message</title>
     <link rel="stylesheet" href="./style.css">
-</head>
+<script src="./node_modules/crypto-js/crypto-js.js"></script></head>
 <body>
-    <div><h2>Javascript Cryptography</h2></div>
+    <div><h2>Encrypt the Message</h2></div>
 <div class="form-section">
-<textarea id="msg" name="msg" placeholder="Message to Encrypt ..." style="height:100px"></textarea>
+<input id="msg" type="text" name="msg" placeholder="Message to Encrypt ...">
+<input type="password" name="passphrase" id="passphrase" placeholder="passphrase / key">
+<button onclick="submission()">Submit</button>
 </div>
-<div class="results-section">
- <textarea name="results" id="results"></textarea>
-</div>
+
+<br><br>
+<label>Encrypted Message: </label>
+<div id="finished-encryption"></div>
+<br>
+
+<label>Decrypted Message: </label>
+<div id="finished-decryption"></div>
+
+<br>
+<label>Actual Message:</label>
+<div id="message-text"></div>
 </body>
 <script src="./main.js"></script>
 </html>

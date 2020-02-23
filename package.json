@@ -1,0 +1,27 @@
+{
+  "name": "encryptthemessage",
+  "version": "1.0.0",
+  "description": "encrypt a message using a javascript encryption library for AES",
+  "main": "main.js",
+  "dependencies": {
+    "crypto-js": "^4.0.0",
+    "express": "^4.17.1",
+    "nedb": "^1.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodyPellom/EncryptTheMessage.git"
+  },
+  "keywords": [
+    "encryption"
+  ],
+  "author": "Cody Pellom",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CodyPellom/EncryptTheMessage/issues"
+  },
+  "homepage": "https://github.com/CodyPellom/EncryptTheMessage#readme"
+}
